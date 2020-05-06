@@ -27,5 +27,14 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    border: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul, ol {
+    list-style: none;
   }
 `;
